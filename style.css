@@ -85,8 +85,9 @@ h1 {
 .footer{
     opacity: .6;
     font-size: medium;
+    display: flex;
 }
- @media screen and (max-width: 728px){
+@media screen and (max-width: 728px){
     .nav{
         background-color: rgb(17, 92, 101);
         height:auto;
@@ -98,9 +99,13 @@ h1 {
         align-items: center;
         right: 30px;
         display: block;
+        
     }
     .flex-container{
         width: auto;
     }
+
 }
- 
+.designed_by{
+    margin-left: 100px;
+}
